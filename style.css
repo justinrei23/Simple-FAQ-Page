@@ -1,0 +1,169 @@
+/* FAQ Page No.7 */
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Chango&family=Comic+Relief:wght@400;700&family=Handlee&family=Oswald:wght@200..700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  background-color: beige;
+  font-family: "Ancizar Serif", sans-serif;
+  margin: 25px;
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  filter: drop-shadow(1px 1px 2px black);
+  letter-spacing: 4px;
+  margin: 7px;
+  font-weight: normal;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+
+summary {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+details {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+textarea {
+  background-color: aliceblue;
+  border: solid 2px #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 300px;
+  position: relative;
+  left: 40%;
+  transition: 0.2s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: #58f85d;
+}
+
+#message {
+  font-size: 20px;
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Responside Design for a mobile device with 320 px */
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 3px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    justify-content: center;
+    position: relative;
+    left: 4px;
+  }
+
+  summary {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  button {
+    position: relative;
+    left: 30px;
+    width: 150px;
+  }
+}
+
+/* Responside Design for a mobile device with 375 px */
+@media screen and (min-width: 375px) {
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 3px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    position: relative;
+    left: 4px;
+  }
+
+  summary {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  button {
+    position: relative;
+    left: 55px;
+    width: 150px;
+  }
+}
+
+/* Responside Design for a mobile device with 425 px */
+@media screen and (min-width: 425px) {
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 3px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    position: relative;
+    left: 4px;
+  }
+
+  summary {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  button {
+    position: relative;
+    left: 80px;
+    width: 150px;
+  }
+}

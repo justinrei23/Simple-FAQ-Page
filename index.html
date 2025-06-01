@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keyword="FAQ, questions, answers, help, support">
+    <meta name="description" content="Frequently Asked Questions page providing answers to common queries.">
+    <meta name="author" content="Justin Rei">
+    <!-- Open Graph Meta Tags -->
+    <title>FAQ Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/QAicon.jpg" type="image/x-icon">
+    <!--A title and a link to css & web icon-->
+</head>
+
+<body>
+    <h1>Frequently Asked Questions</h1>
+    <!-- A brief introduction to the FAQ page -->
+    <section>
+        <details class="faq-item">
+            <summary>What is HTML?</summary>
+            <p>HTML, or HyperText Markup Language, is the foundation of web pages. It's the standard language used to
+                create and structure content on the internet. Think of it as the blueprint that tells a web browser how
+                to display text, images, links, and other elements.</p>
+            <p>It works using "tags" like for paragraphs, for headings, and for links. While HTML organizes the content,
+                it's often paired with CSS for styling and JavaScript for interactivity.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>What is CSS?</summary>
+            <p>CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation of a document
+                written in HTML. It controls the layout, colors, fonts, and overall visual appearance of web pages.</p>
+            <p>CSS allows developers to separate content from design, making it easier to maintain and update websites.
+                It uses selectors to apply styles to specific elements, enabling responsive design and consistent
+                styling across multiple pages.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>What is JavaScript?</summary>
+            <p>JavaScript is a programming language that enables interactive web pages. It allows developers to create
+                dynamic content, control multimedia, animate images, and much more.</p>
+            <p>JavaScript runs in the browser, making it essential for client-side scripting. It's often used alongside
+                HTML and CSS to enhance user experience by responding to user actions like clicks, form submissions, and
+                page loads.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>What is a web browser?</summary>
+            <p>A web browser is a software application used to access and view websites on the internet. It interprets
+                HTML, CSS, and JavaScript to display web pages as intended by their developers.</p>
+            <p>Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. They provide
+                features like bookmarks, tabs, and extensions to enhance user experience while browsing the web.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>What is a web server?</summary>
+            <p>A web server is a computer system that stores, processes, and delivers web pages to users over the
+                internet. It responds to requests from web browsers by serving the requested content, such as HTML
+                files, images, and videos.</p>
+            <p>Web servers use protocols like HTTP (HyperText Transfer Protocol) to communicate with browsers. They can
+                host multiple websites and handle various types of content, making them essential for delivering online
+                services.</p>
+        </details>
+        <!-- More FAQ items can be added here following the same structure -->
+        <textarea id="question" placeholder="Submit a question here..." cols="5" rows="5"></textarea>
+        <button onclick="submit()">Submit</button>
+        <p id="message"></p>
+        <!-- A textarea for users to submit their questions and a button to submit them -->
+    </section>
+    <script src="script.js"></script>
+    <!-- A link to the JavaScript file for interactivity -->
+</body>
+
+</html>
